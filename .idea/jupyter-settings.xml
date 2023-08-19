@@ -3,14 +3,14 @@
   <component name="JupyterPersistentConnectionParameters">
     <option name="moduleParameters">
       <map>
-        <entry key="$USER_HOME$/JetBrains/.idea/PycharmProjects.iml">
+        <entry key="$PROJECT_DIR$/../.idea/PycharmProjects.iml">
           <value>
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
             </JupyterConnectionParameters>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../.idea/PycharmProjects.iml">
+        <entry key="$USER_HOME$/PycharmProjects/.idea/PycharmProjects.iml">
           <value>
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
