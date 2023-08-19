@@ -43,7 +43,13 @@ Data analytics, Data Manipulation, Data Visualization, to Machine Learning. Feel
 
 For more details about any project or for collaboration opportunities, you can reach me at:
 
+<<<<<<< HEAD
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/arthur-xia-8a4a71234/)
 - Email: arthurxia.career@gmail.com
 - GitHub: [Your GitHub Profile](https://github.com/ArthurXia1031)
+=======
+- LinkedIn: [Your LinkedIn Profile](#https://www.linkedin.com/in/arthur-xia-8a4a71234/)
+- Email: arthurxia.career@gmail.com
+- GitHub: [Your GitHub Profile](#https://github.com/ArthurXia1031)
+>>>>>>> origin/main
 
