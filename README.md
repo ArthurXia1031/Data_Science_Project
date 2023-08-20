@@ -1,6 +1,4 @@
-# My Data Portfolio
-
-## Arthur Xia
+# Arthur Xia's Data Portfolio
 
 Hello! This is a collection of various data projects I've worked on, showcasing a range of skills from A/B testing, Big
 Data analytics, Data Manipulation, Data Visualization, to Machine Learning. Feel free to browse and provide feedback!

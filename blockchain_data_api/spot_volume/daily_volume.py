@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# @Time       :4/25/23 & 9:43 PM
+# @Time       :6/25/23 & 9:43 PM
 # @AUTHOR     :Arthur Xia
 # @SOFTWARE   :JetBrains
 
@@ -146,9 +146,7 @@ for i in top_list:
             vol_record[i] = round(float(vol_list[2 * (n + 1) - 2]) * bp, 1)
         n += 1
 
-
 print(vol_record)
-
 
 # write into the database
 
