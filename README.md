@@ -15,28 +15,6 @@ Data analytics, Data Manipulation, Data Visualization, to Machine Learning. Feel
 
 ---
 
-## A/B Testing
-
-- **Project Title 1**: Brief description. [[Link to the project]](#)
-- **Project Title 2**: Another brief description. [[Link to the project]](#)
-
-## Machine Learning Projects
-
-- **Machine Learning Project 1**: Description of the ML project. [[Link to the project]](#)
-- **Machine Learning Project 2**: Another short description. [[Link to the project]](#)
-
-## Tableau Projects
-
-- **Tableau Project 1**: Short description. [[Link to the project]](#)
-- **Tableau Project 2**: Another brief outline. [[Link to the project]](#)
-
-## Blockchain Analytics Projects
-
-- **Project 1**: Description of the ML project. [[Link to the project]](#)
-- **Project 2**: Another short description. [[Link to the project]](#)
-
----
-
 ## Contact & Further Info
 
 For more details about any project or for collaboration opportunities, you can reach me at:
