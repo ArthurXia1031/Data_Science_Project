@@ -1,0 +1,34 @@
+import snowflake.connector
+import os
+
+# 1. 配置连接
+conn = snowflake.connector.connect(
+    user='YOUR_USERNAME',
+    password='YOUR_PASSWORD',
+    account='YOUR_ACCOUNT_IDENTIFIER',  # e.g., xy12345.us-east-1
+    warehouse='YOUR_WAREHOUSE',
+    database='YOUR_DATABASE',
+    schema='YOUR_SCHEMA'
+)
+
+# 2. 设置本地保存路径
+# 注意：Windows 路径需要转义，例如 'C:\\data\\edges\\'
+local_path = '/tmp/data/edges/' 
+if not os.path.exists(local_path):
+    os.makedirs(local_path)
+
+# 3. 执行 GET 命令
+# 这里的 @~/gnn_export/edges/ 必须和你 SQL 里 COPY INTO 的路径一致
+sql_get = f"GET @~/gnn_export/edges/ file://{local_path}"
+
+print("📥 开始下载 Parquet 文件...")
+cursor = conn.cursor()
+cursor.execute(sql_get)
+
+# 4. 打印下载结果
+for (file, size, status, encryption) in cursor:
+    print(f"File: {file}, Size: {size} bytes, Status: {status}")
+
+print("✅ 下载完成！")
+cursor.close()
+conn.close()
